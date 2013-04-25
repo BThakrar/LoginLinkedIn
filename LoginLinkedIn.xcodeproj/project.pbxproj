@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33996C416F33950007277D0 /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996B816F33950007277D0 /* NSMutableURLRequest+Parameters.m */; };
+		D33996C516F33950007277D0 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996BA16F33950007277D0 /* NSString+URLEncoding.m */; };
+		D33996C616F33950007277D0 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996BC16F33950007277D0 /* NSURL+Base.m */; };
+		D33996C716F33950007277D0 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = D33996BE16F33950007277D0 /* Base64Transcoder.c */; };
+		D33996C816F33950007277D0 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = D33996C016F33950007277D0 /* hmac.c */; };
+		D33996C916F33950007277D0 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = D33996C216F33950007277D0 /* sha1.c */; };
+		D33996CE16F33967007277D0 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996CB16F33967007277D0 /* JSONKit.m */; };
+		D33996CF16F33967007277D0 /* linkedInBluebutton-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = D33996CC16F33967007277D0 /* linkedInBluebutton-highlight.png */; };
+		D33996D016F33967007277D0 /* linkedInBluebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D33996CD16F33967007277D0 /* linkedInBluebutton.png */; };
+		D33996EC16F33987007277D0 /* OAAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996D316F33987007277D0 /* OAAttachment.m */; };
+		D33996ED16F33987007277D0 /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996D516F33987007277D0 /* OACall.m */; };
+		D33996EE16F33987007277D0 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996D716F33987007277D0 /* OAConsumer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D33996EF16F33987007277D0 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996D916F33987007277D0 /* OADataFetcher.m */; };
+		D33996F016F33987007277D0 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996DB16F33987007277D0 /* OAHMAC_SHA1SignatureProvider.m */; };
+		D33996F116F33987007277D0 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996DD16F33987007277D0 /* OAMutableURLRequest.m */; };
+		D33996F216F33987007277D0 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996DF16F33987007277D0 /* OAPlaintextSignatureProvider.m */; };
+		D33996F316F33987007277D0 /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996E116F33987007277D0 /* OAProblem.m */; };
+		D33996F416F33987007277D0 /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996E316F33987007277D0 /* OARequestParameter.m */; };
+		D33996F516F33987007277D0 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996E516F33987007277D0 /* OAServiceTicket.m */; };
+		D33996F616F33987007277D0 /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996E816F33987007277D0 /* OAToken.m */; };
+		D33996F716F33987007277D0 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996EA16F33987007277D0 /* OATokenManager.m */; };
+		D33996FA16F3399C007277D0 /* OAuthLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996F916F3399C007277D0 /* OAuthLoginView.m */; };
+		D33996FD16F339AC007277D0 /* ProfileTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33996FC16F339AC007277D0 /* ProfileTabView.m */; };
+		DB296AC216EDE13900284061 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB296AC116EDE13900284061 /* UIKit.framework */; };
+		DB296AC416EDE13900284061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB296AC316EDE13900284061 /* Foundation.framework */; };
+		DB296AC616EDE13900284061 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB296AC516EDE13900284061 /* CoreGraphics.framework */; };
+		DB296ACC16EDE13900284061 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB296ACA16EDE13900284061 /* InfoPlist.strings */; };
+		DB296ACE16EDE13900284061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB296ACD16EDE13900284061 /* main.m */; };
+		DB296AD216EDE13900284061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB296AD116EDE13900284061 /* AppDelegate.m */; };
+		DB296AD416EDE13A00284061 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB296AD316EDE13A00284061 /* Default.png */; };
+		DB296AD616EDE13A00284061 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB296AD516EDE13A00284061 /* Default@2x.png */; };
+		DB296AD816EDE13A00284061 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB296AD716EDE13A00284061 /* Default-568h@2x.png */; };
+		DB296ADB16EDE13A00284061 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB296AD916EDE13A00284061 /* MainStoryboard.storyboard */; };
+		DB296ADE16EDE13A00284061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB296ADD16EDE13A00284061 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D33996B716F33950007277D0 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		D33996B816F33950007277D0 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		D33996B916F33950007277D0 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		D33996BA16F33950007277D0 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		D33996BB16F33950007277D0 /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		D33996BC16F33950007277D0 /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		D33996BE16F33950007277D0 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		D33996BF16F33950007277D0 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		D33996C016F33950007277D0 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		D33996C116F33950007277D0 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		D33996C216F33950007277D0 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		D33996C316F33950007277D0 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		D33996CA16F33967007277D0 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		D33996CB16F33967007277D0 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		D33996CC16F33967007277D0 /* linkedInBluebutton-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linkedInBluebutton-highlight.png"; sourceTree = "<group>"; };
+		D33996CD16F33967007277D0 /* linkedInBluebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedInBluebutton.png; sourceTree = "<group>"; };
+		D33996D116F33987007277D0 /* OAAtachmentF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAtachmentF.h; sourceTree = "<group>"; };
+		D33996D216F33987007277D0 /* OAAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAttachment.h; sourceTree = "<group>"; };
+		D33996D316F33987007277D0 /* OAAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAttachment.m; sourceTree = "<group>"; };
+		D33996D416F33987007277D0 /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OACall.h; sourceTree = "<group>"; };
+		D33996D516F33987007277D0 /* OACall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OACall.m; sourceTree = "<group>"; };
+		D33996D616F33987007277D0 /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		D33996D716F33987007277D0 /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		D33996D816F33987007277D0 /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		D33996D916F33987007277D0 /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		D33996DA16F33987007277D0 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		D33996DB16F33987007277D0 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		D33996DC16F33987007277D0 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		D33996DD16F33987007277D0 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		D33996DE16F33987007277D0 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		D33996DF16F33987007277D0 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		D33996E016F33987007277D0 /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAProblem.h; sourceTree = "<group>"; };
+		D33996E116F33987007277D0 /* OAProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAProblem.m; sourceTree = "<group>"; };
+		D33996E216F33987007277D0 /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		D33996E316F33987007277D0 /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		D33996E416F33987007277D0 /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		D33996E516F33987007277D0 /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		D33996E616F33987007277D0 /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		D33996E716F33987007277D0 /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		D33996E816F33987007277D0 /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		D33996E916F33987007277D0 /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATokenManager.h; sourceTree = "<group>"; };
+		D33996EA16F33987007277D0 /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
+		D33996EB16F33987007277D0 /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		D33996F816F3399C007277D0 /* OAuthLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthLoginView.h; sourceTree = "<group>"; };
+		D33996F916F3399C007277D0 /* OAuthLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthLoginView.m; sourceTree = "<group>"; };
+		D33996FB16F339AC007277D0 /* ProfileTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTabView.h; sourceTree = "<group>"; };
+		D33996FC16F339AC007277D0 /* ProfileTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTabView.m; sourceTree = "<group>"; };
+		DB296ABE16EDE13900284061 /* LoginLinkedIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginLinkedIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB296AC116EDE13900284061 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB296AC316EDE13900284061 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB296AC516EDE13900284061 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB296AC916EDE13900284061 /* LoginLinkedIn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginLinkedIn-Info.plist"; sourceTree = "<group>"; };
+		DB296ACB16EDE13900284061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB296ACD16EDE13900284061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB296ACF16EDE13900284061 /* LoginLinkedIn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginLinkedIn-Prefix.pch"; sourceTree = "<group>"; };
+		DB296AD016EDE13900284061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB296AD116EDE13900284061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB296AD316EDE13A00284061 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB296AD516EDE13A00284061 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB296AD716EDE13A00284061 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB296ADA16EDE13A00284061 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DB296ADC16EDE13A00284061 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB296ADD16EDE13A00284061 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB296ABB16EDE13900284061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB296AC216EDE13900284061 /* UIKit.framework in Frameworks */,
+				DB296AC416EDE13900284061 /* Foundation.framework in Frameworks */,
+				DB296AC616EDE13900284061 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33996B516F3393C007277D0 /* LinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				D33996D116F33987007277D0 /* OAAtachmentF.h */,
+				D33996D216F33987007277D0 /* OAAttachment.h */,
+				D33996D316F33987007277D0 /* OAAttachment.m */,
+				D33996D416F33987007277D0 /* OACall.h */,
+				D33996D516F33987007277D0 /* OACall.m */,
+				D33996D616F33987007277D0 /* OAConsumer.h */,
+				D33996D716F33987007277D0 /* OAConsumer.m */,
+				D33996D816F33987007277D0 /* OADataFetcher.h */,
+				D33996D916F33987007277D0 /* OADataFetcher.m */,
+				D33996DA16F33987007277D0 /* OAHMAC_SHA1SignatureProvider.h */,
+				D33996DB16F33987007277D0 /* OAHMAC_SHA1SignatureProvider.m */,
+				D33996DC16F33987007277D0 /* OAMutableURLRequest.h */,
+				D33996DD16F33987007277D0 /* OAMutableURLRequest.m */,
+				D33996DE16F33987007277D0 /* OAPlaintextSignatureProvider.h */,
+				D33996DF16F33987007277D0 /* OAPlaintextSignatureProvider.m */,
+				D33996E016F33987007277D0 /* OAProblem.h */,
+				D33996E116F33987007277D0 /* OAProblem.m */,
+				D33996E216F33987007277D0 /* OARequestParameter.h */,
+				D33996E316F33987007277D0 /* OARequestParameter.m */,
+				D33996E416F33987007277D0 /* OAServiceTicket.h */,
+				D33996E516F33987007277D0 /* OAServiceTicket.m */,
+				D33996E616F33987007277D0 /* OASignatureProviding.h */,
+				D33996E716F33987007277D0 /* OAToken.h */,
+				D33996E816F33987007277D0 /* OAToken.m */,
+				D33996E916F33987007277D0 /* OATokenManager.h */,
+				D33996EA16F33987007277D0 /* OATokenManager.m */,
+				D33996EB16F33987007277D0 /* OAuthConsumer.h */,
+				D33996CA16F33967007277D0 /* JSONKit.h */,
+				D33996CB16F33967007277D0 /* JSONKit.m */,
+				D33996CC16F33967007277D0 /* linkedInBluebutton-highlight.png */,
+				D33996CD16F33967007277D0 /* linkedInBluebutton.png */,
+				D33996B616F33950007277D0 /* Categories */,
+				D33996BD16F33950007277D0 /* Crytpo */,
+			);
+			name = LinkedIn;
+			sourceTree = "<group>";
+		};
+		D33996B616F33950007277D0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D33996B716F33950007277D0 /* NSMutableURLRequest+Parameters.h */,
+				D33996B816F33950007277D0 /* NSMutableURLRequest+Parameters.m */,
+				D33996B916F33950007277D0 /* NSString+URLEncoding.h */,
+				D33996BA16F33950007277D0 /* NSString+URLEncoding.m */,
+				D33996BB16F33950007277D0 /* NSURL+Base.h */,
+				D33996BC16F33950007277D0 /* NSURL+Base.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D33996BD16F33950007277D0 /* Crytpo */ = {
+			isa = PBXGroup;
+			children = (
+				D33996BE16F33950007277D0 /* Base64Transcoder.c */,
+				D33996BF16F33950007277D0 /* Base64Transcoder.h */,
+				D33996C016F33950007277D0 /* hmac.c */,
+				D33996C116F33950007277D0 /* hmac.h */,
+				D33996C216F33950007277D0 /* sha1.c */,
+				D33996C316F33950007277D0 /* sha1.h */,
+			);
+			path = Crytpo;
+			sourceTree = "<group>";
+		};
+		DB296AB516EDE13900284061 = {
+			isa = PBXGroup;
+			children = (
+				D33996B516F3393C007277D0 /* LinkedIn */,
+				DB296AC716EDE13900284061 /* LoginLinkedIn */,
+				DB296AC016EDE13900284061 /* Frameworks */,
+				DB296ABF16EDE13900284061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB296ABF16EDE13900284061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB296ABE16EDE13900284061 /* LoginLinkedIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB296AC016EDE13900284061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB296AC116EDE13900284061 /* UIKit.framework */,
+				DB296AC316EDE13900284061 /* Foundation.framework */,
+				DB296AC516EDE13900284061 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB296AC716EDE13900284061 /* LoginLinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				D33996FB16F339AC007277D0 /* ProfileTabView.h */,
+				D33996FC16F339AC007277D0 /* ProfileTabView.m */,
+				DB296AD016EDE13900284061 /* AppDelegate.h */,
+				DB296AD116EDE13900284061 /* AppDelegate.m */,
+				DB296AD916EDE13A00284061 /* MainStoryboard.storyboard */,
+				D33996F816F3399C007277D0 /* OAuthLoginView.h */,
+				D33996F916F3399C007277D0 /* OAuthLoginView.m */,
+				DB296ADC16EDE13A00284061 /* ViewController.h */,
+				DB296ADD16EDE13A00284061 /* ViewController.m */,
+				DB296AC816EDE13900284061 /* Supporting Files */,
+			);
+			path = LoginLinkedIn;
+			sourceTree = "<group>";
+		};
+		DB296AC816EDE13900284061 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB296AC916EDE13900284061 /* LoginLinkedIn-Info.plist */,
+				DB296ACA16EDE13900284061 /* InfoPlist.strings */,
+				DB296ACD16EDE13900284061 /* main.m */,
+				DB296ACF16EDE13900284061 /* LoginLinkedIn-Prefix.pch */,
+				DB296AD316EDE13A00284061 /* Default.png */,
+				DB296AD516EDE13A00284061 /* Default@2x.png */,
+				DB296AD716EDE13A00284061 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB296ABD16EDE13900284061 /* LoginLinkedIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB296AE116EDE13A00284061 /* Build configuration list for PBXNativeTarget "LoginLinkedIn" */;
+			buildPhases = (
+				DB296ABA16EDE13900284061 /* Sources */,
+				DB296ABB16EDE13900284061 /* Frameworks */,
+				DB296ABC16EDE13900284061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginLinkedIn;
+			productName = LoginLinkedIn;
+			productReference = DB296ABE16EDE13900284061 /* LoginLinkedIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB296AB616EDE13900284061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Object Lounge";
+			};
+			buildConfigurationList = DB296AB916EDE13900284061 /* Build configuration list for PBXProject "LoginLinkedIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB296AB516EDE13900284061;
+			productRefGroup = DB296ABF16EDE13900284061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB296ABD16EDE13900284061 /* LoginLinkedIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB296ABC16EDE13900284061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB296ACC16EDE13900284061 /* InfoPlist.strings in Resources */,
+				DB296AD416EDE13A00284061 /* Default.png in Resources */,
+				DB296AD616EDE13A00284061 /* Default@2x.png in Resources */,
+				DB296AD816EDE13A00284061 /* Default-568h@2x.png in Resources */,
+				DB296ADB16EDE13A00284061 /* MainStoryboard.storyboard in Resources */,
+				D33996CF16F33967007277D0 /* linkedInBluebutton-highlight.png in Resources */,
+				D33996D016F33967007277D0 /* linkedInBluebutton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB296ABA16EDE13900284061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB296ACE16EDE13900284061 /* main.m in Sources */,
+				DB296AD216EDE13900284061 /* AppDelegate.m in Sources */,
+				DB296ADE16EDE13A00284061 /* ViewController.m in Sources */,
+				D33996C416F33950007277D0 /* NSMutableURLRequest+Parameters.m in Sources */,
+				D33996C516F33950007277D0 /* NSString+URLEncoding.m in Sources */,
+				D33996C616F33950007277D0 /* NSURL+Base.m in Sources */,
+				D33996C716F33950007277D0 /* Base64Transcoder.c in Sources */,
+				D33996C816F33950007277D0 /* hmac.c in Sources */,
+				D33996C916F33950007277D0 /* sha1.c in Sources */,
+				D33996CE16F33967007277D0 /* JSONKit.m in Sources */,
+				D33996EC16F33987007277D0 /* OAAttachment.m in Sources */,
+				D33996ED16F33987007277D0 /* OACall.m in Sources */,
+				D33996EE16F33987007277D0 /* OAConsumer.m in Sources */,
+				D33996EF16F33987007277D0 /* OADataFetcher.m in Sources */,
+				D33996F016F33987007277D0 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				D33996F116F33987007277D0 /* OAMutableURLRequest.m in Sources */,
+				D33996F216F33987007277D0 /* OAPlaintextSignatureProvider.m in Sources */,
+				D33996F316F33987007277D0 /* OAProblem.m in Sources */,
+				D33996F416F33987007277D0 /* OARequestParameter.m in Sources */,
+				D33996F516F33987007277D0 /* OAServiceTicket.m in Sources */,
+				D33996F616F33987007277D0 /* OAToken.m in Sources */,
+				D33996F716F33987007277D0 /* OATokenManager.m in Sources */,
+				D33996FA16F3399C007277D0 /* OAuthLoginView.m in Sources */,
+				D33996FD16F339AC007277D0 /* ProfileTabView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB296ACA16EDE13900284061 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB296ACB16EDE13900284061 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB296AD916EDE13A00284061 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB296ADA16EDE13A00284061 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB296ADF16EDE13A00284061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB296AE016EDE13A00284061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB296AE216EDE13A00284061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginLinkedIn/LoginLinkedIn-Prefix.pch";
+				INFOPLIST_FILE = "LoginLinkedIn/LoginLinkedIn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB296AE316EDE13A00284061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginLinkedIn/LoginLinkedIn-Prefix.pch";
+				INFOPLIST_FILE = "LoginLinkedIn/LoginLinkedIn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB296AB916EDE13900284061 /* Build configuration list for PBXProject "LoginLinkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB296ADF16EDE13A00284061 /* Debug */,
+				DB296AE016EDE13A00284061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB296AE116EDE13A00284061 /* Build configuration list for PBXNativeTarget "LoginLinkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB296AE216EDE13A00284061 /* Debug */,
+				DB296AE316EDE13A00284061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB296AB616EDE13900284061 /* Project object */;
+}
